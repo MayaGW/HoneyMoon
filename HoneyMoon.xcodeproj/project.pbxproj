@@ -13,6 +13,7 @@
 		81A352072BAD860400A25206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A352062BAD860400A25206 /* Preview Assets.xcassets */; };
 		81A3520F2BAD877300A25206 /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81A3520D2BAD877300A25206 /* sound-click.mp3 */; };
 		81A352102BAD877300A25206 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81A3520E2BAD877300A25206 /* sound-rise.mp3 */; };
+		81A352132BAD899900A25206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A352122BAD899900A25206 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		81A352062BAD860400A25206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81A3520D2BAD877300A25206 /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
 		81A3520E2BAD877300A25206 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		81A352122BAD899900A25206 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		81A351F32BAD860300A25206 = {
 			isa = PBXGroup;
 			children = (
+				81A352122BAD899900A25206 /* LaunchScreen.storyboard */,
 				81A351FE2BAD860300A25206 /* HoneyMoon */,
 				81A351FD2BAD860300A25206 /* Products */,
 			);
@@ -142,6 +145,7 @@
 				81A352072BAD860400A25206 /* Preview Assets.xcassets in Resources */,
 				81A352102BAD877300A25206 /* sound-rise.mp3 in Resources */,
 				81A3520F2BAD877300A25206 /* sound-click.mp3 in Resources */,
+				81A352132BAD899900A25206 /* LaunchScreen.storyboard in Resources */,
 				81A352042BAD860400A25206 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +297,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
