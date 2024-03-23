@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct GuideView: View {
+    //MARK: - PROPERTIES
+    @Environment(\.presentationMode) var presentationView
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment:.center, spacing: 20) {
@@ -42,7 +45,9 @@ struct GuideView: View {
                 }//:vstack
                 Spacer(minLength: 10)
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {
+                    presentationView.wrappedValue.dismiss()
+                }, label: {
                     Text("Continue".uppercased())
                         .font(.headline)
                         .padding()
