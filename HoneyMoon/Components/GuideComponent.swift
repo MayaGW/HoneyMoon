@@ -12,11 +12,11 @@ struct GuideComponent: View {
     var title: String
     var subtitle: String
     var description: String
-    var image: String
+    var icon: String
     //MARK: - BODY
     var body: some View {
         HStack{
-            Image(systemName: image)
+            Image(systemName: icon)
                 .font(.largeTitle)
                 .foregroundColor(.pink)
             VStack(alignment:.leading, spacing: 4){
@@ -46,5 +46,5 @@ struct GuideComponent: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    GuideComponent(title: "Title", subtitle: "Swipe Right", description: "This a placeholder This a placeholde This a placeholde This a placeholde ", image: "heart.circle")
+    GuideComponent(title: "Title", subtitle: "Swipe Right", description: "This a placeholder This a placeholde This a placeholde This a placeholde ", icon: "heart.circle")
 }
