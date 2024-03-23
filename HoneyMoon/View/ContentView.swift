@@ -15,6 +15,7 @@ struct ContentView: View {
             HoneymoonCard(honeymoon: honeymoonData[2])
                 .padding()
             Spacer()
+            FooterView()
         }//:VSTACK
     }
 }
