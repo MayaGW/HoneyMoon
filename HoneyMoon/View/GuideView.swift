@@ -18,7 +18,7 @@ struct GuideView: View {
                 Spacer(minLength: 10)
                 Text("Get Started")
                     .fontWeight(.black)
-                    .foregroundColor(.pink)
+                    .modifier(TitleModifier())
                 Text("Discover and pick the perfect destination for the romantic honeymoon")
                     .lineLimit(nil)
                     .multilineTextAlignment(.center)
@@ -49,13 +49,7 @@ struct GuideView: View {
                     presentationView.wrappedValue.dismiss()
                 }, label: {
                     Text("Continue".uppercased())
-                        .font(.headline)
-                        .padding()
-                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                      
-                        .background(Capsule().fill(.pink))
-                        .padding(.horizontal, 25)
-                        .foregroundColor(.white)
+                        .modifier(ButtonModifier())
                     
                 })
                 
